@@ -1,0 +1,10 @@
+{
+  "recordedAt": "2026-10-15T08:58:25.395Z",
+  "baseURL": "http://127.0.0.1:5173",
+  "pageErrors": [],
+  "mp4": true,
+  "webm": "docs/demo.webm",
+  "originalDurationSeconds": 117.24,
+  "mp4TargetSeconds": 117.24,
+  "note": "真实浏览器操作录像；包含说明字幕。系统语音是否发声取决于浏览器及本机语音服务，录像不录系统音频。"
+}
