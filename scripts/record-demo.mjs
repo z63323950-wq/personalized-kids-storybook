@@ -13,6 +13,8 @@ const context = await browser.newContext({
   recordVideo: { dir: path.join(output, 'recordings'), size: { width: 1440, height: 1000 } },
 });
 const page = await context.newPage();
+const recordingStartedAt = Date.now();
+let mobileStartSeconds = 0;
 const errors = [];
 page.on('pageerror', (e) => errors.push(e.message));
 const video = page.video();
@@ -118,6 +120,7 @@ try {
   await caption('刷新后继续阅读 · 历史与成就都还在');
   await hold(3500);
   await click('开启新故事');
+  mobileStartSeconds = (Date.now() - recordingStartedAt) / 1000;
   await page.setViewportSize({ width: 375, height: 812 });
   await page.evaluate(() => document.getElementById('demo-caption')?.remove());
   await hold(2000);
@@ -150,16 +153,24 @@ try {
   );
   const duration = Number(probe.stdout?.trim());
   // 保留全部操作；机器负载导致长等待时，把成片调整到 110 秒。
-  const speedFilter = duration > 120 ? ['-vf', `setpts=${110 / duration}*PTS`, '-r', '25'] : [];
+  const timing = duration > 120 ? `,setpts=${110 / duration}*PTS` : '';
+  const videoFilter = `[0:v]split[desktop][source];[source]crop=374:812:0:0,scale=-2:920,pad=1440:1000:(ow-iw)/2:(oh-ih)/2:color=0xfaf8f1[phone];[desktop][phone]overlay=enable='gte(t,${mobileStartSeconds})'${timing}[out]`;
   const conversion = spawnSync(
     'ffmpeg',
     [
       '-y',
       '-i',
       webm,
-      ...speedFilter,
+      '-filter_complex',
+      videoFilter,
+      '-map',
+      '[out]',
+      '-r',
+      '25',
       '-c:v',
       'libx264',
+      '-threads',
+      '2',
       '-crf',
       '23',
       '-pix_fmt',
@@ -178,6 +189,7 @@ try {
     webm: 'docs/demo.webm',
     originalDurationSeconds: duration || null,
     mp4TargetSeconds: duration > 120 ? 110 : duration || null,
+    mobileStartSeconds,
     note: '真实浏览器操作录像；包含说明字幕。系统语音是否发声取决于浏览器及本机语音服务，录像不录系统音频。',
   };
   await writeFile(path.join(output, 'demo-report.json'), JSON.stringify(report, null, 2));
