@@ -1,0 +1,348 @@
+[
+  {
+    "id": "t01",
+    "type": "template",
+    "title": "森林风铃",
+    "text": "森林 小狐狸 精灵 友谊 勇气 风铃 树 藤蔓 寻找森林里沉默的风铃树并与狐狸朋友合作。",
+    "description": "寻找森林里沉默的风铃树并与狐狸朋友合作。",
+    "theme": "forest"
+  },
+  {
+    "id": "t02",
+    "type": "template",
+    "title": "蘑菇小屋",
+    "text": "森林 蘑菇 迷路 寻路 分享 动物 帮助迷路的小獾找到蘑菇小屋。",
+    "description": "帮助迷路的小獾找到蘑菇小屋。",
+    "theme": "forest"
+  },
+  {
+    "id": "t03",
+    "type": "template",
+    "title": "森林雨伞",
+    "text": "森林 雨天 动物 伞 团队 关怀 为雨中的小动物搭一把大叶伞。",
+    "description": "为雨中的小动物搭一把大叶伞。",
+    "theme": "forest"
+  },
+  {
+    "id": "t04",
+    "type": "template",
+    "title": "萤火虫之夜",
+    "text": "森林 夜晚 萤火虫 光 帮助 帮助萤火虫点亮通往家的路。",
+    "description": "帮助萤火虫点亮通往家的路。",
+    "theme": "forest"
+  },
+  {
+    "id": "t05",
+    "type": "template",
+    "title": "小溪的歌",
+    "text": "森林 小溪 水 音乐 合作 自然 找回小溪流淌的声音。",
+    "description": "找回小溪流淌的声音。",
+    "theme": "forest"
+  },
+  {
+    "id": "t06",
+    "type": "template",
+    "title": "星际灯塔",
+    "text": "太空 宇宙 星际 机器人 飞船 星球 探险 灯塔 团队 与机器人点亮未知星球的灯塔。",
+    "description": "与机器人点亮未知星球的灯塔。",
+    "theme": "space"
+  },
+  {
+    "id": "t07",
+    "type": "template",
+    "title": "月球邮局",
+    "text": "太空 月亮 邮递 飞船 机器人 寻找 把丢失的信送到月球邮局。",
+    "description": "把丢失的信送到月球邮局。",
+    "theme": "space"
+  },
+  {
+    "id": "t08",
+    "type": "template",
+    "title": "恐龙星球",
+    "text": "太空 宇宙 恐龙 机器人 星球 探索 和机器人恐龙探索陌生星球。",
+    "description": "和机器人恐龙探索陌生星球。",
+    "theme": "space"
+  },
+  {
+    "id": "t09",
+    "type": "template",
+    "title": "海洋花园",
+    "text": "海底 海洋 海龟 珊瑚 环保 垃圾 保护 和小海龟清理海湾，种下珊瑚。",
+    "description": "和小海龟清理海湾，种下珊瑚。",
+    "theme": "ocean"
+  },
+  {
+    "id": "t10",
+    "type": "template",
+    "title": "贝壳宝藏",
+    "text": "海底 海洋 珍珠 贝壳 海马 寻宝 友谊 与海马寻找帮助珊瑚生长的宝物。",
+    "description": "与海马寻找帮助珊瑚生长的宝物。",
+    "theme": "ocean"
+  },
+  {
+    "id": "t11",
+    "type": "template",
+    "title": "鲸鱼音乐会",
+    "text": "海洋 鲸鱼 音乐 保护 动物 友谊 帮助小鲸鱼举办海底音乐会。",
+    "description": "帮助小鲸鱼举办海底音乐会。",
+    "theme": "ocean"
+  },
+  {
+    "id": "t12",
+    "type": "template",
+    "title": "机器人画室",
+    "text": "机器人 绘画 艺术 色彩 创造 想象 与机器人一起创作彩虹画。",
+    "description": "与机器人一起创作彩虹画。",
+    "theme": "space"
+  },
+  {
+    "id": "i01",
+    "type": "image",
+    "title": "森林绘本原始插画 1",
+    "text": "相遇出发 小月 小狐狸 森林 风铃树",
+    "description": "相遇出发 小月 小狐狸 森林 风铃树",
+    "theme": "forest",
+    "path": "assets/images/forest-original-01.png",
+    "origin": "第3周AI生成插画"
+  },
+  {
+    "id": "i02",
+    "type": "image",
+    "title": "森林绘本原始插画 2",
+    "text": "寻找线索 小月 小狐狸 观察 藤蔓 风铃",
+    "description": "寻找线索 小月 小狐狸 观察 藤蔓 风铃",
+    "theme": "forest",
+    "path": "assets/images/forest-original-02.png",
+    "origin": "第3周AI生成插画"
+  },
+  {
+    "id": "i03",
+    "type": "image",
+    "title": "森林绘本原始插画 3",
+    "text": "合作行动 小月 小狐狸 解开 藤蔓",
+    "description": "合作行动 小月 小狐狸 解开 藤蔓",
+    "theme": "forest",
+    "path": "assets/images/forest-original-03.png",
+    "origin": "第3周AI生成插画"
+  },
+  {
+    "id": "i04",
+    "type": "image",
+    "title": "森林绘本原始插画 4",
+    "text": "庆祝 小月 小狐狸 森林 风铃",
+    "description": "庆祝 小月 小狐狸 森林 风铃",
+    "theme": "forest",
+    "path": "assets/images/forest-original-04.png",
+    "origin": "第3周AI生成插画"
+  },
+  {
+    "id": "i05",
+    "type": "image",
+    "title": "森林风铃场景卡 01",
+    "text": "森林 小狐狸 精灵 友谊 勇气 风铃 树 藤蔓 寻找森林里沉默的风铃树并与狐狸朋友合作。",
+    "description": "寻找森林里沉默的风铃树并与狐狸朋友合作。",
+    "theme": "forest",
+    "path": "assets/images/card-01.png",
+    "origin": "程序绘制的主题素材卡，非独立生成的绘本插画"
+  },
+  {
+    "id": "i06",
+    "type": "image",
+    "title": "蘑菇小屋场景卡 02",
+    "text": "森林 蘑菇 迷路 寻路 分享 动物 帮助迷路的小獾找到蘑菇小屋。",
+    "description": "帮助迷路的小獾找到蘑菇小屋。",
+    "theme": "forest",
+    "path": "assets/images/card-02.png",
+    "origin": "程序绘制的主题素材卡，非独立生成的绘本插画"
+  },
+  {
+    "id": "i07",
+    "type": "image",
+    "title": "森林雨伞场景卡 03",
+    "text": "森林 雨天 动物 伞 团队 关怀 为雨中的小动物搭一把大叶伞。",
+    "description": "为雨中的小动物搭一把大叶伞。",
+    "theme": "forest",
+    "path": "assets/images/card-03.png",
+    "origin": "程序绘制的主题素材卡，非独立生成的绘本插画"
+  },
+  {
+    "id": "i08",
+    "type": "image",
+    "title": "萤火虫之夜场景卡 04",
+    "text": "森林 夜晚 萤火虫 光 帮助 帮助萤火虫点亮通往家的路。",
+    "description": "帮助萤火虫点亮通往家的路。",
+    "theme": "forest",
+    "path": "assets/images/card-04.png",
+    "origin": "程序绘制的主题素材卡，非独立生成的绘本插画"
+  },
+  {
+    "id": "i09",
+    "type": "image",
+    "title": "小溪的歌场景卡 05",
+    "text": "森林 小溪 水 音乐 合作 自然 找回小溪流淌的声音。",
+    "description": "找回小溪流淌的声音。",
+    "theme": "forest",
+    "path": "assets/images/card-05.png",
+    "origin": "程序绘制的主题素材卡，非独立生成的绘本插画"
+  },
+  {
+    "id": "i10",
+    "type": "image",
+    "title": "星际灯塔场景卡 06",
+    "text": "太空 宇宙 星际 机器人 飞船 星球 探险 灯塔 团队 与机器人点亮未知星球的灯塔。",
+    "description": "与机器人点亮未知星球的灯塔。",
+    "theme": "space",
+    "path": "assets/images/card-06.png",
+    "origin": "程序绘制的主题素材卡，非独立生成的绘本插画"
+  },
+  {
+    "id": "i11",
+    "type": "image",
+    "title": "月球邮局场景卡 07",
+    "text": "太空 月亮 邮递 飞船 机器人 寻找 把丢失的信送到月球邮局。",
+    "description": "把丢失的信送到月球邮局。",
+    "theme": "space",
+    "path": "assets/images/card-07.png",
+    "origin": "程序绘制的主题素材卡，非独立生成的绘本插画"
+  },
+  {
+    "id": "i12",
+    "type": "image",
+    "title": "恐龙星球场景卡 08",
+    "text": "太空 宇宙 恐龙 机器人 星球 探索 和机器人恐龙探索陌生星球。",
+    "description": "和机器人恐龙探索陌生星球。",
+    "theme": "space",
+    "path": "assets/images/card-08.png",
+    "origin": "程序绘制的主题素材卡，非独立生成的绘本插画"
+  },
+  {
+    "id": "i13",
+    "type": "image",
+    "title": "海洋花园场景卡 09",
+    "text": "海底 海洋 海龟 珊瑚 环保 垃圾 保护 和小海龟清理海湾，种下珊瑚。",
+    "description": "和小海龟清理海湾，种下珊瑚。",
+    "theme": "ocean",
+    "path": "assets/images/card-09.png",
+    "origin": "程序绘制的主题素材卡，非独立生成的绘本插画"
+  },
+  {
+    "id": "i14",
+    "type": "image",
+    "title": "贝壳宝藏场景卡 10",
+    "text": "海底 海洋 珍珠 贝壳 海马 寻宝 友谊 与海马寻找帮助珊瑚生长的宝物。",
+    "description": "与海马寻找帮助珊瑚生长的宝物。",
+    "theme": "ocean",
+    "path": "assets/images/card-10.png",
+    "origin": "程序绘制的主题素材卡，非独立生成的绘本插画"
+  },
+  {
+    "id": "i15",
+    "type": "image",
+    "title": "鲸鱼音乐会场景卡 11",
+    "text": "海洋 鲸鱼 音乐 保护 动物 友谊 帮助小鲸鱼举办海底音乐会。",
+    "description": "帮助小鲸鱼举办海底音乐会。",
+    "theme": "ocean",
+    "path": "assets/images/card-11.png",
+    "origin": "程序绘制的主题素材卡，非独立生成的绘本插画"
+  },
+  {
+    "id": "i16",
+    "type": "image",
+    "title": "机器人画室场景卡 12",
+    "text": "机器人 绘画 艺术 色彩 创造 想象 与机器人一起创作彩虹画。",
+    "description": "与机器人一起创作彩虹画。",
+    "theme": "space",
+    "path": "assets/images/card-12.png",
+    "origin": "程序绘制的主题素材卡，非独立生成的绘本插画"
+  },
+  {
+    "id": "i17",
+    "type": "image",
+    "title": "森林风铃场景卡 13",
+    "text": "森林 小狐狸 精灵 友谊 勇气 风铃 树 藤蔓 寻找森林里沉默的风铃树并与狐狸朋友合作。",
+    "description": "寻找森林里沉默的风铃树并与狐狸朋友合作。",
+    "theme": "forest",
+    "path": "assets/images/card-13.png",
+    "origin": "程序绘制的主题素材卡，非独立生成的绘本插画"
+  },
+  {
+    "id": "i18",
+    "type": "image",
+    "title": "蘑菇小屋场景卡 14",
+    "text": "森林 蘑菇 迷路 寻路 分享 动物 帮助迷路的小獾找到蘑菇小屋。",
+    "description": "帮助迷路的小獾找到蘑菇小屋。",
+    "theme": "forest",
+    "path": "assets/images/card-14.png",
+    "origin": "程序绘制的主题素材卡，非独立生成的绘本插画"
+  },
+  {
+    "id": "i19",
+    "type": "image",
+    "title": "森林雨伞场景卡 15",
+    "text": "森林 雨天 动物 伞 团队 关怀 为雨中的小动物搭一把大叶伞。",
+    "description": "为雨中的小动物搭一把大叶伞。",
+    "theme": "forest",
+    "path": "assets/images/card-15.png",
+    "origin": "程序绘制的主题素材卡，非独立生成的绘本插画"
+  },
+  {
+    "id": "i20",
+    "type": "image",
+    "title": "萤火虫之夜场景卡 16",
+    "text": "森林 夜晚 萤火虫 光 帮助 帮助萤火虫点亮通往家的路。",
+    "description": "帮助萤火虫点亮通往家的路。",
+    "theme": "forest",
+    "path": "assets/images/card-16.png",
+    "origin": "程序绘制的主题素材卡，非独立生成的绘本插画"
+  },
+  {
+    "id": "s01",
+    "type": "sound",
+    "title": "风铃",
+    "text": "森林 风铃 树 清脆",
+    "description": "程序合成的风铃提示音",
+    "theme": "forest",
+    "path": "assets/sounds/sound-01.wav",
+    "origin": "程序合成音色，仅作情境提示，不是现场录音"
+  },
+  {
+    "id": "s02",
+    "type": "sound",
+    "title": "溪水",
+    "text": "森林 小溪 水 柔和",
+    "description": "程序合成的溪水提示音",
+    "theme": "forest",
+    "path": "assets/sounds/sound-02.wav",
+    "origin": "程序合成音色，仅作情境提示，不是现场录音"
+  },
+  {
+    "id": "s03",
+    "type": "sound",
+    "title": "星际信号",
+    "text": "太空 宇宙 飞船 机器人",
+    "description": "程序合成的星际信号提示音",
+    "theme": "space",
+    "path": "assets/sounds/sound-03.wav",
+    "origin": "程序合成音色，仅作情境提示，不是现场录音"
+  },
+  {
+    "id": "s04",
+    "type": "sound",
+    "title": "海洋气泡",
+    "text": "海洋 海底 气泡 海龟",
+    "description": "程序合成的海洋气泡提示音",
+    "theme": "ocean",
+    "path": "assets/sounds/sound-04.wav",
+    "origin": "程序合成音色，仅作情境提示，不是现场录音"
+  },
+  {
+    "id": "s05",
+    "type": "sound",
+    "title": "庆祝铃声",
+    "text": "友谊 庆祝 成功 快乐",
+    "description": "程序合成的庆祝铃声提示音",
+    "theme": "forest",
+    "path": "assets/sounds/sound-05.wav",
+    "origin": "程序合成音色，仅作情境提示，不是现场录音"
+  }
+]

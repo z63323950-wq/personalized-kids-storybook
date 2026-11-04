@@ -9,5 +9,8 @@ playwright-report/
 .openai/*.local.*
 artifacts/*.zip
 *.tsbuildinfo
+__pycache__/
+*.pyc
+.venv/
 docs/recordings/
 docs/qa-*.png

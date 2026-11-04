@@ -7,9 +7,10 @@ import { LibraryPage } from './pages/LibraryPage';
 import { useStoryLibrary } from './hooks/useStoryLibrary';
 import { createStory } from './engine/storyEngine';
 import type { Profile, Story } from './types';
+import { ExplorePage } from './pages/ExplorePage';
 export default function App() {
   const library = useStoryLibrary();
-  const [page, setPage] = useState<'home' | 'reader' | 'library'>(
+  const [page, setPage] = useState<'home' | 'reader' | 'library' | 'explore'>(
     library.active ? 'reader' : 'home',
   );
   const navigate = (next: typeof page) => {
@@ -30,7 +31,7 @@ export default function App() {
   }
   return (
     <>
-      <Header count={library.stories.length} onHome={home} onLibrary={() => navigate('library')} />
+      <Header count={library.stories.length} onHome={home} onLibrary={() => navigate('library')} onExplore={() => navigate('explore')} />
       {library.warning && (
         <div className="warning" role="status">
           {library.warning}
@@ -53,6 +54,7 @@ export default function App() {
         />
       )}{' '}
       {page === 'library' && <LibraryPage stories={library.stories} onOpen={open} onHome={home} />}
+      {page === 'explore' && <ExplorePage onHome={home} />}
       <footer className="site-footer">
         <span>
           <Stars size={17} /> 星梦故事屋
